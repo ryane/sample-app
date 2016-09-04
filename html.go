@@ -103,6 +103,9 @@ const (
 
 </div>
 </div>
+<div>
+		{{.ExternalIP}}
+</div>
 <div class="col s2">&nbsp;</div>
 </div>
 </div>
