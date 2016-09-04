@@ -34,68 +34,68 @@ const (
 <div class="col s8">
 
 
-<div class="card blue">
+<div class="card orange">
 <div class="card-content white-text">
 <div class="card-title">Backend that serviced this request</div>
 </div>
 <div class="card-content white">
 <table class="bordered">
-  <tbody>
+	<tbody>
 	<tr>
-	  <td>Name</td>
-	  <td>{{.Name}}</td>
+		<td>Name</td>
+		<td>{{.Name}}</td>
 	</tr>
 	<tr>
-	  <td>Version</td>
-	  <td>{{.Version}}</td>
+		<td>Version</td>
+		<td>{{.Version}}</td>
 	</tr>
 	<tr>
-	  <td>ID</td>
-	  <td>{{.Id}}</td>
+		<td>ID</td>
+		<td>{{.Id}}</td>
 	</tr>
 	<tr>
-	  <td>Hostname</td>
-	  <td>{{.Hostname}}</td>
+		<td>Hostname</td>
+		<td>{{.Hostname}}</td>
 	</tr>
 	<tr>
-	  <td>Zone</td>
-	  <td>{{.Zone}}</td>
+		<td>Zone</td>
+		<td>{{.Zone}}</td>
 	</tr>
 	<tr>
-	  <td>Project</td>
-	  <td>{{.Project}}</td>
+		<td>Project</td>
+		<td>{{.Project}}</td>
 	</tr>
 	<tr>
-	  <td>Internal IP</td>
-	  <td>{{.InternalIP}}</td>
+		<td>Internal IP</td>
+		<td>{{.InternalIP}}</td>
 	</tr>
 	<tr>
-	  <td>External IP</td>
-	  <td>{{.ExternalIP}}</td>
+		<td>External IP</td>
+		<td>{{.ExternalIP}}</td>
 	</tr>
-  </tbody>
+	</tbody>
 </table>
 </div>
 </div>
 
-<div class="card blue">
+<div class="card orange">
 <div class="card-content white-text">
 <div class="card-title">Proxy that handled this request</div>
 </div>
 <div class="card-content white">
 <table class="bordered">
-  <tbody>
+	<tbody>
 	<tr>
-	  <td>Address</td>
-	  <td>{{.ClientIP}}</td>
+		<td>Address</td>
+		<td>{{.ClientIP}}</td>
 	</tr>
 	<tr>
-	  <td>Request</td>
-	  <td>{{.LBRequest}}</td>
+		<td>Request</td>
+		<td>{{.LBRequest}}</td>
 	</tr>
 <tr>
-  <td>Error</td>
-  <td>{{.Error}}</td>
+	<td>Error</td>
+	<td>{{.Error}}</td>
 </tr>
 </tbody>
 </table>
