@@ -2,6 +2,7 @@ node {
   def project = 'imm-gce'
   def appName = 'gceme'
   def feSvcName = "${appName}-frontend"
+  def friendlyBranchName = "${env.BRANCH_NAME}".replaceAll(/\//, "-")
   def imageTag = "gcr.io/${project}/${appName}:${env.BRANCH_NAME}.${env.BUILD_NUMBER}"
 
   checkout scm
